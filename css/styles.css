@@ -1,0 +1,214 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #F8F8FF;
+  font-family: 'Oxygen', sans-serif;
+
+}
+/* HEADER STYLE*/
+#header-nav{
+	background-color: #D3D3D3;
+	border-radius: 0;
+	border: 0;
+
+}
+.navbar-brand{
+    padding-top: 25px;
+	margin: 10px 15px 10px 0;
+
+}
+.navbar-brand h1{
+	color: #557c3e;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+
+.navbar-brand a:hover, .navbar-bran a:focus {
+	text-decoration: none;
+}
+/* Navbar List  */
+/* STYLE NAVIGATION MENU*/
+#nav-list{
+	margin-top: 10px;
+	clear: both;
+}
+#nav-list a{
+	color: #5F9EA0;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #5F9EA0;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -40px;
+}
+
+/* End of navbar list*/
+
+
+/* Homepage */
+
+.container .jumbotron{
+  color: #000;
+  background-color: #F8F8FF;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+#main-content h1.jumbotron{
+  font-size: 30px;
+}
+
+#home-tiles h1{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile{
+		width: 100%;
+		margin-bottom: 15px;
+		position: relative;
+		border: 2px solid: #BDB76B;
+		overflow: auto;
+		background-color: #E6E6FA;
+}
+#chicken-tile:hover,#beef-tile:hover, #sushi-tile:hover{
+		box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#chicken-tile p, #beef-tile p, #sushi-tile p{
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		font-size: .8em;
+}
+#chicken-tile a, #beef-tile a, #sushi-tile a{
+		text-decoration: none;
+}
+
+#chicken-tile #return-top, #beef-tile #return-top, #sushi-tile #return-top{
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		font-size: .8em;
+		color: black;
+}
+#return-top span{
+	text-decoration: underline;
+	color: blue ;
+}
+/*  End homepage */
+
+
+
+/*************** Large devices only ***************/
+@media (min-width: 1200px){
+	/*Home page*/
+	.container .jumbotron{
+		margin-top: 10px;
+		padding-top: 0;
+		padding-bottom: 0;
+		height:  70px;
+	}
+	#main-content .jumbotron > h1{
+		font-size: 2em;
+
+	}
+	/* end Home page*/
+
+
+}
+/*************** Medium devices only ***************/
+@media (min-width: 992px) and (max-width: 1199px){
+
+	/*Home page*/
+	.container .jumbotron{
+		margin-top: 10px;
+		padding-top: 0;
+		padding-bottom: 0;
+		height:  70px;
+	}
+	#main-content .jumbotron > h1{
+		font-size: 2em;
+
+	}
+	/* end Home page*/
+
+}
+/*************** Small devices only ***************/
+@media (min-width: 768px) and (max-width: 991px){
+/*Home page*/
+	.container .jumbotron{
+		margin-top: 10px;
+		padding-top: 0;
+		padding-bottom: 0;
+		height:  50px;
+	}
+	#main-content .jumbotron > h1{
+		font-size: 1.6em;
+
+	}
+	/* end Home page*/
+
+
+
+
+
+
+}
+/*************** Extra small devices only ***************/
+@media (max-width: 767px){
+	/* Header*/
+	.navbar-brand{
+		padding-top: 10px;
+		height: 70px;
+	}
+	.navbar-brand h1{ /*Restaurant name*/
+		padding-top: 20px;
+		font-size: 5vw;
+	}
+
+	#collapsable-nav a{ /*Collapsable menu*/
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+		color: #000;
+	}
+	.container .jumbotron{
+		margin-top: 20px;
+		padding: 0;
+
+	}
+
+}
+
+
+/****** SUPER EXTRA SMALL **********/
+@media (max-width: 479px){
+	/*headder*/
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 6vw;
+	}
+
+
+}
+
+
+
+
